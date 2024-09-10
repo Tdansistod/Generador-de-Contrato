@@ -262,8 +262,8 @@ function PDF({ client }) {
           <Text style={styles.paragraph}>
             Sin perjuicio de lo anterior, EL CONTRATISTA tendrá derecho a que
             incluya, en la parte inferior del sitio web objeto del presente
-            contrato, una leyenda que indique lo siguiente: “Sitio Web por{" "}
-            {brand}”.
+            contrato, una leyenda que indique lo siguiente: “Sitio Web Creado
+            Por {brand}”.
           </Text>
           <Text style={styles.subtitle}>SÉPTIMA. UBICACIÓN</Text>
           <Text style={styles.paragraph}>
