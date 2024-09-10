@@ -5,6 +5,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background-color: var(--color-background);
+  color: white;
 }
 input,
 textarea,
@@ -14,36 +16,32 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 :root {
-  --color-main: #fff;
-  --color-highlight: #024de6;
-  --color-secondary: #8684f0;
-  --color-tertiary: #c7bff9;
-  --shadow: -5px 5px 7px rgba(0, 0, 0, 0.3);
-  --16px: 1rem;
-  --20px: 1.25rem; /* Mobile */
-  --24px: 1.5rem;
-  --32px: 2rem;
-  --40px: 2.5rem; /* Mobile */
-  --48px: 3rem;
-  --64px: 4rem;
-  --80px: 5rem;
-  --96px: 6rem;
-  --192px: 12rem;
-  --384px: 24rem;
-  --768px: 48rem;
-  --1152px: 72rem;
+  --color-background: #131313;
+  --color-main: #024de6;
+  --color-highlight: #8684f0;
+  --color-secondary: #c7bff9;
+  --font-small: 1.25rem;
+  --font-medium: 1.5rem;
+  --font-large: 3rem;
+}
+@media only screen and (max-width: 700px) {
+  :root {
+    --font-small: 1rem;
+    --font-medium: 1.2rem;
+    --font-large: 2rem;
+  }
 }
 body::-webkit-scrollbar {
-  width: var(--16px);
+  width: 1rem;
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--color-highlight);
+  background: var(--color-background);
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--color-tertiary);
-  border-radius: var(--16px);
+  background: var(--color-main);
+  border-radius: 1rem;
 }
 
 @supports not selector(::-webkit-scrollbar) {
