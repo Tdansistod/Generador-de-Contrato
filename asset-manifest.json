@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Generador-de-Contrato/static/css/main.2b874cad.css",
+    "main.js": "/Generador-de-Contrato/static/js/main.fe96623a.js",
+    "index.html": "/Generador-de-Contrato/index.html",
+    "main.2b874cad.css.map": "/Generador-de-Contrato/static/css/main.2b874cad.css.map",
+    "main.fe96623a.js.map": "/Generador-de-Contrato/static/js/main.fe96623a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b874cad.css",
+    "static/js/main.fe96623a.js"
+  ]
+}
