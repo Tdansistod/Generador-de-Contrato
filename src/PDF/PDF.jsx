@@ -1,4 +1,12 @@
-import { Document, Text, Page, StyleSheet, View } from "@react-pdf/renderer";
+import {
+  Document,
+  Text,
+  Page,
+  StyleSheet,
+  View,
+  Image,
+} from "@react-pdf/renderer";
+import logo from "../W Diseño Web Logo.png";
 function PDF({ client }) {
   const myName = "LAUTARO NURIEL WALTERSDORF";
   const city = "CIUDAD AUTÓNOMA DE BUENOS AIRES";
@@ -37,6 +45,12 @@ function PDF({ client }) {
       flexDirection: "column",
       margin: "10px",
     },
+    logo: {
+      width: "80px",
+      height: "80px",
+      margin: "auto",
+      marginBottom: "50px",
+    },
     title: {
       margin: "10px",
       fontSize: "16px",
@@ -66,6 +80,7 @@ function PDF({ client }) {
     <Document>
       <Page style={styles.page}>
         <View style={styles.view}>
+          <Image src={logo} style={styles.logo} />
           <Text style={styles.paragraph}>
             CONTRATO PRIVADO DE SERVICIOS QUE EN TÉRMINOS DE LO QUE DISPONE LA
             LEGISLACIÓN CIVIL VIGENTE PARA LA {city}, CELEBRAN, POR UNA PARTE,
