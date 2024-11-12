@@ -9,9 +9,9 @@ import {
 import logo from "../W Diseño Web Logo.png";
 function PDF({ client }) {
   const myName = "LAUTARO NURIEL WALTERSDORF";
-  const city = "CIUDAD AUTÓNOMA DE BUENOS AIRES";
+  const city = "PROVINCIA DE RÍO NEGRO";
   const myNationality = "ARGENTINO";
-  const myAddress = "DICKMAN 1082, CIUDAD AUTÓNOMA DE BUENOS AIRES, ARGENTINA";
+  const myAddress = "RIVADAVIA 1565, EL BOLSÓN, RÍO NEGRO, ARGENTINA";
   const myDNI = "42.340.816";
   const brand = "W Diseño Web";
   var today = new Date();
